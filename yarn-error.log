@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-native-community
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\IBM\SPSS\Statistics\Subscription\JRE\bin;C:\Users\55469\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\55469\AppData\Local\Programs\Python\Python37-32\;C:\Users\55469\AppData\Local\Microsoft\WindowsApps;C:\Users\55469\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\55469\AppData\Roaming\npm;C:\Users\55469\AppData\Local\Yarn\bin;"C:\Program Files\JetBrains\PyCharm Community Edition 2019.2.1\bin;;c:\android-sdk-windows\tools;";"C:\Program Files\Android\Android Studio\gradle\gradle-4.10.1;";"C:\Android\sdk\tools\bin;";"C:\Android\sdk\platform-tools;";"C:\Program Files\Java\jdk-13.0.1\bin;";"C:\Users\55469\AppData\Local\Android\Sdk\tools;C:\Users\55469\AppData\Local\Android\Sdk\platform-tools;";"C:\Users\55469\AppData\Local\Android\sdk\platform-tools;";
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/react-native-community: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:65939:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140464:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141436:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141358:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1129:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
