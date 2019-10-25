@@ -19,6 +19,27 @@ const styles = StyleSheet.create({
         width: 50,
         alignItems: 'center',
     },
+
+    title: {
+        fontSize: metrics.fontSizeDefault,
+        fontWeight: 'bold',
+        color: colors.darker,
+    },
+
+    icon: {
+        width: 30,
+        color: color.darker,
+    },
     
 
-})
+    iconClose: {
+        color: colors.darkTransparent,
+    },
+
+    iconHide: {
+        width: 50,
+        color: colors.transparent,
+    },
+});
+
+export default styles;
